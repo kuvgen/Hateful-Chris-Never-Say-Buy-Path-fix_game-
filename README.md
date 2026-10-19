@@ -10,11 +10,11 @@ An unofficial fan patcher for **Hateful Chris 2: Never Say Buy** (Clickteam engi
 
 | Flag | Fix |
 |---|---|
-| `--inventory` | The game keeps running behind the inventory screen and enemies, NPCs, effects and level objects are drawn over it. Now the game is **paused** while the inventory is open and those objects are hidden, then restored on close. |
-| `--hud` | (with `--inventory`) also hides the top HUD panel while the inventory is open. |
-| `--fix-story` | **Uber quest:** the Liposuction tool is never given in the original, so the quest cannot be finished. It is now given when you take the quest. **Trixie abduction:** the story only continues if you have completed exactly 4–5 quests when entering Klub Kix; with 6+ it never triggers. Now 4–8. |
-| `--windowed` | Starts in an 800×600 window with a title bar instead of fullscreen. **Alt+Enter** toggles fullscreen. |
-| `--knife-bonus N` | Adds N to the starting knife's damage (it deals 1 in the original). |
+| `inventory` | The game continues to run while the inventory screen is open: enemies, NPCs, visual effects, and level objects are rendered on top of it. Now, however, when the inventory is opened on modern systems, it displays correctly, and all those other objects are hidden; they reappear once the inventory is closed. |
+| `hud` | (with `inventory`) also hides the top HUD panel while the inventory is open. |
+| `fix-story` | **"Uber"- quest:** the Liposuction tool is never given in the original, so the quest cannot be finished. It is now given when you take the quest. **Trixie abduction:** the story only continues if you have completed exactly 4–5 quests when entering Klub Kix; with 6+ it never triggers. Now 4–8. |
+| `windowed` | Starts in an 800×600 window with a title bar instead of fullscreen. **Alt+Enter** toggles fullscreen. |
+| `-knife-bonus N` | Adds N to the starting knife's damage (it deals 1 in the original). |
 
 Debug/advanced flags: `--no-pause` (hide objects only, don't pause), `--hide-name NAME` (also hide an object by name, repeatable), `--dry-run` (report only, don't write).
 
