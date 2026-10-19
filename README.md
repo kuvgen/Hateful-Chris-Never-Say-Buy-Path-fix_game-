@@ -60,11 +60,11 @@ Script comments and docs are mostly in Russian.
 ## Godot remake (work in progress)
 [`godot/`](godot) contains a Godot 4.4+ prototype of the Downtown level that loads the data exported from your own copy of the game. See [`godot/README.md`](godot/README.md).
 
-## Credits
-- Reverse engineering, testing and project lead: [kuvgen](https://github.com/kuvgen)
-- Tools, patcher and documentation were developed with the help of
-  [Claude](https://claude.ai) (Anthropic), an AI assistant.
-- Hateful Chris 2: Never Say Buy belongs to its original authors.
+   ## Credits
+   - Reverse engineering, testing and project lead: [kuvgen](https://github.com/kuvgen)
+   - Tools, patcher and documentation were developed with the help of
+     [Claude](https://claude.ai) (Anthropic), an AI assistant.
+   - Hateful Chris 2: Never Say Buy belongs to its original authors.
 
 ## Legal
 This is an unofficial, non-commercial fan project and is not affiliated with the authors or publishers of Hateful Chris 2.
