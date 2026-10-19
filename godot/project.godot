@@ -1,0 +1,17 @@
+config_version=5
+
+[application]
+config/name="Hateful Chris - срез Downtown"
+run/main_scene="res://levels/004_Downtown.tscn"
+config/features=PackedStringArray("4.4")
+
+[autoload]
+HC="*res://scripts/hcdata.gd"
+
+[display]
+window/size/viewport_width=800
+window/size/viewport_height=600
+window/stretch/mode="canvas_items"
+
+[rendering]
+textures/canvas_textures/default_texture_filter=0

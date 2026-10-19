@@ -1,0 +1,266 @@
+{
+ "level_index": 4,
+ "floor_y": 531,
+ "chris": {
+  "obj": 66,
+  "start": [
+   186,
+   536
+  ],
+  "hp": 80,
+  "speed": 28,
+  "jump": 100,
+  "gravity": 30,
+  "melee_obj": 78
+ },
+ "knife": {
+  "anim": 19,
+  "damage": 6,
+  "body_anim": 14,
+  "hit_frame": 4,
+  "original_damage": 1
+ },
+ "enemies": [
+  {
+   "name": "Afroboy",
+   "obj": 157,
+   "hp": 20,
+   "every_ms": 10000,
+   "attack_anim": 12,
+   "damage": 3,
+   "sound": "afroBoyAttack",
+   "walk": 10,
+   "run": 12,
+   "pain_anim": 13,
+   "angers": true
+  },
+  {
+   "name": "Raver",
+   "obj": 156,
+   "hp": 20,
+   "every_ms": 7000,
+   "attack_anim": 13,
+   "damage": 3,
+   "sound": "enemyHit1",
+   "walk": 10,
+   "run": 12,
+   "pain_anim": 12,
+   "angers": true
+  },
+  {
+   "name": "Hippie",
+   "obj": 160,
+   "hp": 20,
+   "every_ms": 15000,
+   "attack_anim": 14,
+   "damage": 3,
+   "sound": "hippieGun",
+   "walk": 6,
+   "run": 12,
+   "pain_anim": 15,
+   "angers": true
+  },
+  {
+   "name": "Gino",
+   "obj": 158,
+   "hp": 20,
+   "every_ms": 9000,
+   "attack_anim": 13,
+   "damage": 3,
+   "sound": "whip",
+   "walk": 12,
+   "run": 12,
+   "pain_anim": 12,
+   "angers": true
+  },
+  {
+   "name": "Fatty",
+   "obj": 159,
+   "hp": 20,
+   "every_ms": 13000,
+   "attack_anim": 12,
+   "damage": 3,
+   "sound": "",
+   "walk": 8,
+   "run": 10,
+   "pain_anim": 13,
+   "angers": true
+  },
+  {
+   "name": "Bum",
+   "obj": 74,
+   "hp": 20,
+   "every_ms": 12000,
+   "attack_anim": 14,
+   "damage": 0,
+   "sound": "bumCough",
+   "walk": 8,
+   "run": 12,
+   "pain_anim": 15,
+   "angers": true
+  },
+  {
+   "name": "Rocker",
+   "obj": 155,
+   "hp": 20,
+   "every_ms": 11000,
+   "attack_anim": 13,
+   "damage": 3,
+   "sound": "metalAttack",
+   "walk": 6,
+   "run": 12,
+   "pain_anim": 12,
+   "angers": true
+  },
+  {
+   "name": "Punk",
+   "obj": 73,
+   "hp": 20,
+   "every_ms": 5000,
+   "attack_anim": 13,
+   "damage": 3,
+   "sound": "enemyHit1",
+   "walk": 10,
+   "run": 12,
+   "pain_anim": 14,
+   "angers": true
+  },
+  {
+   "name": "Goth",
+   "obj": 75,
+   "hp": 20,
+   "every_ms": 9000,
+   "attack_anim": 0,
+   "damage": 0,
+   "sound": "",
+   "walk": 5,
+   "run": 5,
+   "pain_anim": 14,
+   "angers": false
+  }
+ ],
+ "makers": [
+  559,
+  1169,
+  1870,
+  2608
+ ],
+ "max_enemies": 8,
+ "doors": [
+  {
+   "x0": 102,
+   "x1": 202,
+   "to": "Klubkix"
+  },
+  {
+   "x0": 540,
+   "x1": 621,
+   "to": "Hardware"
+  },
+  {
+   "x0": 1858,
+   "x1": 1993,
+   "to": "Lucky_s"
+  },
+  {
+   "x0": 2895,
+   "x1": 3030,
+   "to": "Suburbs"
+  },
+  {
+   "x0": -35,
+   "x1": 103,
+   "to": "Pier"
+  },
+  {
+   "x0": 1155,
+   "x1": 1293,
+   "to": "Uptown"
+  }
+ ],
+ "loot": [
+  {
+   "kind": "cash",
+   "value": 50,
+   "dir": 0,
+   "weight": 10,
+   "sound": "getCash"
+  },
+  {
+   "kind": "cash",
+   "value": 25,
+   "dir": 2,
+   "weight": 14,
+   "sound": "getCash"
+  },
+  {
+   "kind": "cash",
+   "value": 5,
+   "dir": 6,
+   "weight": 20,
+   "sound": "getCash"
+  },
+  {
+   "kind": "cash",
+   "value": 100,
+   "dir": 8,
+   "weight": 4,
+   "sound": "getCash"
+  },
+  {
+   "kind": "hp",
+   "value": 20,
+   "dir": 4,
+   "weight": 12,
+   "sound": "icetea"
+  },
+  {
+   "kind": "hp",
+   "value": 80,
+   "dir": 12,
+   "weight": 3,
+   "sound": "iceteacrystals"
+  },
+  {
+   "kind": "trap",
+   "value": 4,
+   "dir": 10,
+   "weight": 3,
+   "sound": "boxGet"
+  }
+ ],
+ "item_obj": 202,
+ "decor": [
+  101,
+  77,
+  76
+ ],
+ "drop_chance": 0.5,
+ "max_hp": 80,
+ "fx": {
+  "Blood Left": 125,
+  "Blood Right": 127,
+  "Blood Small Left": 126,
+  "Blood Small Right": 128,
+  "Small Splat": 59,
+  "Big splat": 60,
+  "part1": 136,
+  "part2": 137,
+  "part3": 140,
+  "part4": 138,
+  "part5": 143,
+  "part6": 144,
+  "part7": 139,
+  "part8": 141,
+  "part9": 142
+ },
+ "anger": {
+  "per_hit": 5,
+  "hostile_at": 5,
+  "decay_every_s": 2.0,
+  "chase_range": 260,
+  "attack_cooldown_s": 1.0,
+  "stun_hp": 2,
+  "note": "в оригинале per_hit=2 при уроне ножа 1; с ножом 6 враг оглушается раньше, чем разозлится, поэтому 5 - злится с первого удара"
+ }
+}
