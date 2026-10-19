@@ -8,6 +8,7 @@ An unofficial fan patcher for **Hateful Chris 2: Never Say Buy** (Clickteam engi
 
 ## What it fixes
 
+Flags are passed with two dashes, e.g. `--inventory` (see the full command in **Usage**).
 | Flag | Fix |
 |---|---|
 | `inventory` | The game continues to run while the inventory screen is open: enemies, NPCs, visual effects, and level objects are rendered on top of it. Now, however, when the inventory is opened on modern systems, it displays correctly, and all those other objects are hidden; they reappear once the inventory is closed. |
