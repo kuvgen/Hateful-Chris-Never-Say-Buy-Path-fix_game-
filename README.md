@@ -6,6 +6,9 @@ An unofficial fan patcher for **Hateful Chris 2: Never Say Buy** (Clickteam engi
 > The patcher reads your original `HCNSB.exe` and writes a new patched file next to it —
 > the original is never modified.
 
+**Status:** beta. `--inventory`, `--hud` and `--windowed` are tested in-game.
+`--fix-story` is verified on the event data but not yet played through — feedback is welcome (see *Testing checklist*).
+
 ## What it fixes
 
 Flags are passed with two dashes, e.g. `--inventory` (see the full command in **Build & run**).
