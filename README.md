@@ -1,6 +1,6 @@
 # Hateful Chris: Never Say Buy — unofficial fix patch
 
-An unofficial fan patcher for **Hateful Chris 2: Never Say Buy** (Clickteam engine, `HCNSB.exe`).
+An unofficial fan patcher for **Hateful Chris: Never Say Buy** (Clickteam engine, `HCNSB.exe`).
 
 > **This repository contains no game files.** You need your own copy of the game.
 > The patcher reads your original `HCNSB.exe` and writes a new patched file next to it —
