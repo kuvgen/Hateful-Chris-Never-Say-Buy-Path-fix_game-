@@ -1,4 +1,4 @@
-# Hateful Chris 2: Never Say Buy — unofficial fix patch
+# Hateful Chris: Never Say Buy — unofficial fix patch
 
 An unofficial fan patcher for **Hateful Chris 2: Never Say Buy** (Clickteam engine, `HCNSB.exe`).
 
@@ -112,6 +112,6 @@ Please report issues with the check number, a screenshot and the relevant lines 
 - Hateful Chris 2: Never Say Buy belongs to its original authors.
 
 ## Legal
-This is an unofficial, non-commercial fan project and is not affiliated with the authors or publishers of Hateful Chris 2.
+This is an unofficial, non-commercial fan project and is not affiliated with the authors or publishers of Hateful Chris.
 It contains only original code and documentation written for this project (MIT license, see `LICENSE`).
 All game content, names and trademarks belong to their respective owners.
